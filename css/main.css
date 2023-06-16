@@ -30,12 +30,12 @@
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; 
   }
   /* Small */
   @media (min-width: 768px) {
     .container {
-      width: 750px;
+      width: 750px; 
     }
   }
   /* Medium */
@@ -153,17 +153,15 @@
   }
   .header .main-nav {
     display: flex;
+    flex-direction: column;
+    list-style: none;
+    
   }
   @media (max-width: 767px) {
     .header .main-nav {
       margin: auto;
     }
   }
-  /* .header .main-nav > li:hover .mega-menu {
-    opacity: 1;
-    z-index: 100;
-    top: calc(100% + 1px);
-  } */
   .header .main-nav > li > a {
     display: flex;
     justify-content: center;
