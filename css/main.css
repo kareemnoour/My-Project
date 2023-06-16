@@ -153,13 +153,11 @@
   }
   .header .main-nav {
     display: flex;
-    flex-direction: column;
-    list-style: none;
-    
   }
   @media (max-width: 767px) {
     .header .main-nav {
       margin: auto;
+      flex-direction: column;
     }
   }
   .header .main-nav > li > a {
