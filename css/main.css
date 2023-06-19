@@ -450,7 +450,13 @@ footer{
   color: #777;
 }
 /* End Team */
+/* Start Call us */
+input[type="email"]::placeholder,.tec::placeholder{
+  opacity: 0.3;
+  /* color: var(--main-color-alt); */
+}
 
+/* End Call us */
 @keyframes up-and-down {
   0%,
   100% {
